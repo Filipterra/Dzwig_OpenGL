@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{3a4e4b87-8962-4693-a423-6112b7ada66e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vertices">
+      <UniqueIdentifier>{35724f53-5d46-4675-9ac0-4671dcc8e138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Indices">
+      <UniqueIdentifier>{569ebe23-6713-4832-b495-2cb11909fb9a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source files\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\Crane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\CraneHorizontalSection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\CraneHorizontalSectionBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\CraneHorizontalSectionPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\CraneJibSection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\CraneJibSectionPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\CraneJibSectionRail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\CraneJibSectionWheel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\CraneVerticalSection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\CraneVerticalSectionPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\GLFWWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\VertexData3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\CraneHorizontalSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\CraneHorizontalSectionBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\CraneHorizontalSectionPart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\CraneJibSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\CraneJibSectionPart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\CraneJibSectionRail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\CraneJibSectionWheel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\CraneVerticalSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\CraneVerticalSectionPart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\GLFWWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\VertexData3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Shaders\ColorShaderFragment.txt">
+      <Filter>Shaders</Filter>
+    </Text>
+    <Text Include="Indices\HorizontalCraneAtachInd.txt">
+      <Filter>Indices</Filter>
+    </Text>
+    <Text Include="Indices\HorizontalCraneBaseInd.txt">
+      <Filter>Indices</Filter>
+    </Text>
+    <Text Include="Indices\HorizontalCraneCabinInd.txt">
+      <Filter>Indices</Filter>
+    </Text>
+    <Text Include="Indices\HorizontalCraneEndInd.txt">
+      <Filter>Indices</Filter>
+    </Text>
+    <Text Include="Indices\HorizontalCraneMidInd.txt">
+      <Filter>Indices</Filter>
+    </Text>
+    <Text Include="Indices\HorizontalCranePartInd.txt">
+      <Filter>Indices</Filter>
+    </Text>
+    <Text Include="Indices\HorizontalCraneWeightInd.txt">
+      <Filter>Indices</Filter>
+    </Text>
+    <Text Include="Indices\JibCraneLineEndInd.txt">
+      <Filter>Indices</Filter>
+    </Text>
+    <Text Include="Indices\JibCranePartInd.txt">
+      <Filter>Indices</Filter>
+    </Text>
+    <Text Include="Indices\JibCraneRailInd.txt">
+      <Filter>Indices</Filter>
+    </Text>
+    <Text Include="Indices\JibCraneWheelInd.txt">
+      <Filter>Indices</Filter>
+    </Text>
+    <Text Include="Vertices\HorizontalCraneAtachVert.txt">
+      <Filter>Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\HorizontalCraneBaseVert.txt">
+      <Filter>Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\HorizontalCraneCabinVert.txt">
+      <Filter>Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\HorizontalCraneEndVert.txt">
+      <Filter>Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\HorizontalCraneMidVert.txt">
+      <Filter>Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\HorizontalCranePartVert.txt">
+      <Filter>Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\HorizontalCraneWeightVert.txt">
+      <Filter>Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\JibCraneLineEndVert.txt">
+      <Filter>Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\JibCraneLinePartVert.txt">
+      <Filter>Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\JibCranePartVert.txt">
+      <Filter>Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\JibCraneRailVert.txt">
+      <Filter>Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\JibCraneWheelVert.txt">
+      <Filter>Vertices</Filter>
+    </Text>
+    <Text Include="Shaders\ShaderVertexFragm.txt">
+      <Filter>Shaders</Filter>
+    </Text>
+    <Text Include="Shaders\ShaderVertexHorizontal.txt">
+      <Filter>Shaders</Filter>
+    </Text>
+    <Text Include="Shaders\ShaderVertexPersp.txt">
+      <Filter>Shaders</Filter>
+    </Text>
+    <Text Include="Shaders\SimpleShaderFragment.txt">
+      <Filter>Shaders</Filter>
+    </Text>
+    <Text Include="Shaders\SimpleShaderVertex.txt">
+      <Filter>Shaders</Filter>
+    </Text>
+    <Text Include="Indices\VerticalCranePartInd.txt">
+      <Filter>Indices</Filter>
+    </Text>
+    <Text Include="Vertices\VerticalCranePartVert.txt">
+      <Filter>Vertices</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Crane.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
